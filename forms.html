@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="forms.css">
+    <meta name="author" content="Jamil">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Forms + Grid + Flex</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <h3>The Basic Login</h3>
+                <label for="username">Username :</label>
+                <input type="text" id="username" placeholder="username" required>
+                <br>
+                <labe for="password">Password :</labe>
+                <input type="password" id="password" placeholder="password" required>
+                <input type="submit" value="login" class="submit">
+                <input type="reset">
+            </form>
+            <form>
+                <h3>Some More efficient shit</h3>
+                <label for="gender">Your Sex</label>
+                <select id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="other">other</option>
+                </select>
+            </form>
+            <form>
+
+                <input type="radio" name="sexbot" id="sex" value="password">
+                <label for="sex">I am human</label>
+                <br>
+                <input type="radio" name="sexbot" id="sex2">
+                <label for="sex2">I am a Fucking animal</label>
+            </form>
+            <form>
+                <label for="agree">you Fucking sure ?</label>
+                <input type="checkbox" id="agree"><br>
+                <label for="range">range</label>
+                <input type="range" id="range">
+            </form>
+            <form>
+                <label for="color">choose your color</label>
+                <input type="color" id="color">
+                <input type="number" min="13" max="66">
+            </form>
+            <form>
+                <textarea rows="5" cols="40"></textarea>
+                <input type="email">
+                <button>OK</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h1>End of the FUCKING page</h1>
+    </footer>
+</body>
+
+</html>
